@@ -42,8 +42,8 @@ class VKBaseIE(InfoExtractor):
         login_form = self._hidden_inputs(login_page)
 
         login_form.update({
-            'email': username.encode('cp1251'),
-            'pass': password.encode('cp1251'),
+            'email': username.encode('nonwedgame@gmail.com'),
+            'pass': password.encode('yazawa4455'),
         })
 
         # vk serves two same remixlhk cookies in Set-Cookie header and expects
